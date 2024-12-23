@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!-- Background Symbols -->
+   
+    
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">AbdulMonem Naseraldin</div>
+                    <div class="logo-text">/</div>
+                    <div class="logo-text"> 03722070</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="C:\Users\ASUS\Desktop\CV\01c9bd8101247a609525f2521984543fb255fe6a07.jpg" alt="Profile Picture">
+                    <p class="hero-pic-text">This is a brief description or caption for the image.</p>
+                 </div>
+                 <div class="hero-text">
+                     <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+                    <h1>AbdulMonem Naseraldin</h1>
+                    <p>
+                        My name is Abdulmonem Naseraldin, and I was born in Amman, Jordan, in 2004. I developed a strong interest in programming in 2016, which led me to join several academies focused on programming and robotics. This early exposure nurtured my passion for technology and laid the foundation for my career in software development.
+                    </p>
+                    <p>
+                        In 2015, I moved to Turkey, and I am currently pursuing a degree in Software Engineering at Istanbul Sabahattin Zaim University. During my first-year summer break, I joined the prestigious 42 Academy in Istanbul, where I further honed my skills and deepened my understanding of programming principles.
+                    </p>
+                    <p>
+                        Over the years, I have learned seven programming languages, including Java, C++, C, CSS, Shell, Python, and HTML. I am continuously working to refine my skills and achieve mastery in these languages. My journey in programming is fueled by a commitment to excellence and a desire to contribute meaningfully to the ever-evolving world of technology.
+                    </p>
+                    
+                    <div class="btn-group">
+                       <a href="#contact" class="btn active">Contact</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100018008596418"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/abdul-monem-naseraldin-42ab6b279/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/abdalmonem_1"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Abood-2004"><i class="fa-brands fa-github"></i></a> 
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </div>
+     
+     <!-- Skills, Hobbies, and Programming Languages Section -->
+     <div class="skills-hobbies-languages">
+        <div class="wrapper">
+            <div class="section-box">
+                <h2>Skills</h2>
+                <ul>
+                    <li><i class="fa-solid fa-code"></i> Web Development</li>
+                    <li><i class="fa-solid fa-paint-brush"></i> Photoshop Adobe</li>
+                    <li><i class="fa-solid fa-pencil-alt"></i> Illustrator Adobe</li>
+                    <li><i class="fa-solid fa-robot"></i> Robotics</li>
+                    <li><i class="fa-solid fa-lightbulb"></i> Problem Solving</li>
+                    <li><i class="fa-solid fa-lightbulb"></i> 42 Akadime</li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li><i class="fa-solid fa-futbol"></i> Playing Football</li>
+                    <li><i class="fa-solid fa-table-tennis"></i> Table Tennis</li>
+                    <li><i class="fa-solid fa-code"></i> Solving Code Problems</li>
+                    <li><i class="fa-solid fa-gamepad"></i> Playing Video Games</li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <h2>Programming Languages</h2>
+                <div class="languages-columns">
+                    <ul class="column">
+                        <li><i class="fa-brands fa-java"></i> Java</li>
+                        <li><i class="fa-solid fa-code"></i> C++</li>
+                        <li><i class="fa-solid fa-code"></i> C</li>
+                        <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                    </ul>
+                    <ul class="column">
+                        <li><i class="fa-solid fa-terminal"></i> Shell</li>
+                        <li><i class="fa-brands fa-python"></i> Python</li>
+                        <li><i class="fa-brands fa-html5"></i> HTML</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Contact Form Section -->
+     <div id="contact" class="contact-form">
+        <div class="wrapper">
+            <h2>Contact Me</h2>
+            <form action="send_email.php" method="post">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="surname">Surname</label>
+                    <input type="text" id="surname" name="surname" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+     </div>
+
+     <!---typed js for typing text effect-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Frontend Developer","Photoshop Adobe","Web Developer"],
+            typedSpeed:100,
+            backSpeed:30,
+            loop:true
+        })
+     </script>
+</body>
+</html>
